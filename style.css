@@ -1504,7 +1504,7 @@ bottom{
 .discount{
     position:absolute;
     left:0px;
-    bottom:0px;
+    bottom:-70px;
     background:#ff6b00;
     color:#fff;
     padding:5px 10px;
@@ -1679,7 +1679,7 @@ bottom{
 
 
 
-@media (max-width:768px){
+@media (max-width:767px){
 
 header{
     flex-direction:row;
@@ -1770,6 +1770,101 @@ nav ul{
     gap:20px;
 }
 
+    */------ review boy section-----/*
+
+    .reviews{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        padding:30px 20px;
+        margin-top:50px;
+        gap:30px;
+        overflow:hidden;
+    }
+
+    /* Boy Image */
+    .review-left{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:flex-end;
+    }
+
+    .review-left img{
+        width:220px;
+        height:auto;
+        margin-top:0;
+        transform:none;
+        display:block;
+    }
+
+    /* Matter */
+    .review-right{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+    }
+
+    .review-right .stars{
+        font-size:25px;
+        margin-bottom:15px;
+    }
+
+    .review-right p{
+        width:100%;
+        max-width:400px;
+        color:white;
+        font-size:16px;
+        line-height:1.6;
+        margin-bottom:20px;
+    }
+
+    .review-right button{
+        padding:12px 25px;
+        font-size:16px;
+    }
+
+    /*----indie section-----*/
+
+    .indie-section{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .character{
+        width: 100%;
+    }
+
+    .character img{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .indie-right{
+        width: 100%;
+    }
+
+    .indie-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .game-card{
+        width: 100%;
+        height: auto;
+    }
+
+    .game-card img{
+        width: 100%;
+        height: auto;
+    }
+
+
 }
 
 
@@ -1777,7 +1872,7 @@ nav ul{
 
 
 
- @media (min-width:769px) and (max-width:1024px){
+ @media (min-width:768px) and (max-width:1024px){
 
 header{
     padding:0 20px;
